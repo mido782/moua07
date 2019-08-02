@@ -1,0 +1,338 @@
+body{
+	
+	margin: 0px;
+}
+
+.head{
+	
+	background-color: black;
+	width: 100%;
+	height: 110px;
+	position: relative;
+		
+}
+
+
+.head .logo{
+	font-size: 30px;
+	padding-left: 45px;
+	position: absolute;
+	bottom: -25px;
+	color: azure;
+	font-family: fantasy;
+	color: goldenrod;
+
+}
+
+
+.head .nav{
+	
+	
+	
+	color: azure;
+	display: inline-block;
+	float: right;
+	
+	
+}
+
+.head .nav ul{
+	
+	
+	list-style-type: none;
+	
+}
+
+
+.head .nav ul li{
+	
+	margin: 10px;
+	display: inline-block;
+	font-size: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	color: azure;
+	
+}
+
+.head .nav ul li a{
+	
+	color: black;
+	text-decoration: none;
+	font-family: fantasy;
+	color: azure;
+}
+
+.head .nav ul li a:hover{
+	
+	color: cadetblue;
+}
+
+.sup {
+	height: 600px;
+	width: 100%;
+	background-image: url(images/active-activity-beautiful-2247179.jpg);
+	background-size: cover;
+	
+}
+
+.sup p{
+	margin: 0px;
+	padding-top: 100px;
+	padding-left: 260px;
+	font-family: fantasy;
+	font-size: 35px;
+	color: black;
+	
+	
+}
+
+.content{
+	
+	height: 420px;
+	width: 100%;
+	background-color: white;
+}
+
+.content h2{
+	
+	margin: 0px;
+	padding-top: 50px;
+	padding-left: 600px;
+	font-family: fantasy;
+	font-size: 35px;
+	
+	
+}
+
+.content p{
+	
+	font-size: 25px;
+	font-family:serif;
+	padding-left: 7px;
+}
+
+.about{
+	
+	height: 550px;
+	width: 100%;
+	background-color:#222
+}
+
+.about .b{
+	height: 300px;
+	width: 300px;
+	padding-left: 130px;
+	padding-top: 30px;
+	border-radius: 40px;
+	
+}
+
+.about p{
+	
+	padding-top: 50px;
+	padding-left: 350px;
+	font-size: 30px;
+	font-family:cursive;
+	color: white;
+} 
+
+.tra{
+	margin: 0px;
+	height: 600px;
+	width: 100%;
+	background-color: white
+}
+
+.tra .r{
+	
+	height: 500px;
+	width: 450px;
+	padding-left: 70px;
+	padding-top: 40px;
+	float: left;
+}
+
+.tra p{
+	
+	float: left;
+	font-family: fantasy;
+	font-size: 30px;
+	padding-left: 70px;
+	padding-top: 200px
+}
+
+.tb{
+	margin: 0px;
+	height: 800px;
+	width: 100%;
+	background-color:white;
+		
+}
+
+.tb img{
+	height: 500ps;
+	width: 450px;
+	float: right;
+	padding-top: 40px;
+	margin: 0px;
+	padding-right: 70px;
+	
+	
+}
+
+.tb p{
+	
+    padding-top: 300px;	
+    margin: 0px;
+    font-family: fantasy;
+    font-size: 30px;
+	padding-left: 50px;
+	
+	
+}
+
+.sss{
+	
+	height: 800px;
+	width: 100%;
+	background-image: url(images/s.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+
+.sss .li p{
+	
+	font-size: 30px;
+	padding-left: 620px;
+	padding-top: 20px;
+	font-family: fantasy;
+	color: coral;
+}
+.sss .sign{
+	height: 550px;
+	width: 30%;
+	background-color:rgba(255,255,255,0.6);
+	position: absolute;
+	top: 130px;
+	right: 470px;
+	border-radius: 20px;
+
+}
+
+
+.sss .sign form{
+	padding-left: 40px;
+	padding-top: 90px;
+
+	
+}
+.sss .sign .aa {
+	
+	margin-left: 40px;
+	width: 200px;
+	border-radius: 10px;
+	border: none;
+	height: 20px;
+	
+
+	
+}	
+.sss .sign .bb{
+	
+	margin-left: 45px;
+	width: 200px;
+	border-radius: 10px;
+	border: none;
+	height: 20px;
+}
+.sss .sign .a{
+	
+	font-size: 20px;
+	font-family: fantasy;
+	
+}
+
+.sss .sign .b{
+	
+	
+	font-size: 20px;
+	font-family: fantasy;
+	
+	
+}
+
+.sss .sign .m{
+	
+	font-size: 20px;
+	font-family: fantasy;
+	margin-top: 10px;
+	
+
+}
+
+.sss .sign .mm{
+	
+	margin-left: 67px;
+	margin-top: 10px;
+	
+}
+
+.sss .sign p{
+	
+	padding-left: 38px;
+	font-family: fantasy;
+	font-size: 20px;
+	float: left;
+	
+}
+
+.sss .sign .ch{
+	float: left;
+	margin-left: 87px;
+	margin-top: 25px;
+	background-color:coral;
+	font-family: fantasy;
+	border: none;
+
+}
+.sss .sign button{
+	
+	margin-top: 20px;
+	margin-left: 170px;
+	height: 40px;
+	width: 90px;
+	font-family: fantasy;
+	background-color: coral;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	transition: 1.5s;
+	
+	
+}
+
+.sss .sign button:hover{
+	
+	background-color: brown;
+}
+
+.sss .sign .cop{
+	
+	margin-left: 20px;
+	
+}
+.sss .sign span{
+	
+	margin-left: 20px;
+	
+}
+
+
+
+
+
+
